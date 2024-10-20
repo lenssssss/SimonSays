@@ -129,9 +129,10 @@
             // lb_highscore
             // 
             lb_highscore.AutoSize = true;
-            lb_highscore.Location = new Point(457, 40);
+            lb_highscore.Font = new Font("Segoe UI", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lb_highscore.Location = new Point(403, 46);
             lb_highscore.Name = "lb_highscore";
-            lb_highscore.Size = new Size(85, 20);
+            lb_highscore.Size = new Size(159, 38);
             lb_highscore.TabIndex = 2;
             lb_highscore.Text = "High Score:";
             // 
